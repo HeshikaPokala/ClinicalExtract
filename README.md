@@ -98,4 +98,3 @@ results/                 All evaluation outputs (JSON + logs)
 ## Stack
 
 Ollama · Phi-4-mini · LoRA / PEFT · Hugging Face `transformers`/`trl` · Apple MLX · Google Colab (T4 GPU) · `llama.cpp` (GGUF conversion + quantization) · `nomic-embed-text` · ChromaDB
-# ClinicalExtract
