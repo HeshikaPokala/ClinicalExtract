@@ -1,0 +1,26 @@
+# ── Large model & data files (stored on Hugging Face) ──────────────────────
+gguf_models/
+merged_models/
+adapters/
+dataset/notes/
+dataset/processed/
+retrieval_index/
+chroma_db/
+
+# ── Synthea (nested repo + generated data) ──────────────────────────────────
+synthea/
+
+# ── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# ── OS / Editor ─────────────────────────────────────────────────────────────
+.DS_Store
+.idea/
+.vscode/
+
+# ── Misc ────────────────────────────────────────────────────────────────────
+*.log

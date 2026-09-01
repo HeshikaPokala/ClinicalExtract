@@ -1,0 +1,102 @@
+[
+  {
+    "checkpoint": 100,
+    "diagnosis_f1": 0.3374131830898609,
+    "diagnosis_recall": 0.33201779701779705,
+    "diagnosis_precision": 0.4040033876798583,
+    "medication_f1": 0.4852136752136752,
+    "medication_recall": 0.4976190476190476,
+    "medication_precision": 0.520952380952381,
+    "parse_failure_rate": 0.3
+  },
+  {
+    "checkpoint": 200,
+    "diagnosis_f1": 0.33292546663878786,
+    "diagnosis_recall": 0.3770862616915248,
+    "diagnosis_precision": 0.32278048433621187,
+    "medication_f1": 0.47246031746031747,
+    "medication_recall": 0.5833333333333334,
+    "medication_precision": 0.4464285714285714,
+    "parse_failure_rate": 0.3333333333333333
+  },
+  {
+    "checkpoint": 300,
+    "diagnosis_f1": 0.349830077208939,
+    "diagnosis_recall": 0.37768342768342766,
+    "diagnosis_precision": 0.34326441102756894,
+    "medication_f1": 0.46648148148148144,
+    "medication_recall": 0.6,
+    "medication_precision": 0.431468253968254,
+    "parse_failure_rate": 0.3
+  },
+  {
+    "checkpoint": 400,
+    "diagnosis_f1": 0.4271053326759885,
+    "diagnosis_recall": 0.5056472401867139,
+    "diagnosis_precision": 0.39623879044931676,
+    "medication_f1": 0.5584920634920636,
+    "medication_recall": 0.5920634920634921,
+    "medication_precision": 0.5666666666666667,
+    "parse_failure_rate": 0.16666666666666666
+  },
+  {
+    "checkpoint": 500,
+    "diagnosis_f1": 0.5400838774521172,
+    "diagnosis_recall": 0.548165173033594,
+    "diagnosis_precision": 0.5443934877758407,
+    "medication_f1": 0.6787830687830688,
+    "medication_recall": 0.6761904761904761,
+    "medication_precision": 0.7433333333333334,
+    "parse_failure_rate": 0.06666666666666667
+  },
+  {
+    "checkpoint": 600,
+    "diagnosis_f1": 0.44882770565485786,
+    "diagnosis_recall": 0.4708757592310224,
+    "diagnosis_precision": 0.4550853150117856,
+    "medication_f1": 0.5855555555555555,
+    "medication_recall": 0.611111111111111,
+    "medication_precision": 0.6083333333333333,
+    "parse_failure_rate": 0.2
+  },
+  {
+    "checkpoint": 700,
+    "diagnosis_f1": 0.4553634135128067,
+    "diagnosis_recall": 0.4792778542120647,
+    "diagnosis_precision": 0.4508098056627468,
+    "medication_f1": 0.5944444444444444,
+    "medication_recall": 0.6277777777777778,
+    "medication_precision": 0.6066666666666667,
+    "parse_failure_rate": 0.2
+  },
+  {
+    "checkpoint": 800,
+    "diagnosis_f1": 0.4027015174874689,
+    "diagnosis_recall": 0.44673624377571747,
+    "diagnosis_precision": 0.39453428952654956,
+    "medication_f1": 0.5397005772005772,
+    "medication_recall": 0.5555555555555556,
+    "medication_precision": 0.5559259259259259,
+    "parse_failure_rate": 0.23333333333333334
+  },
+  {
+    "checkpoint": 900,
+    "diagnosis_f1": 0.4725653648087354,
+    "diagnosis_recall": 0.47629962873383924,
+    "diagnosis_precision": 0.48624444756023705,
+    "medication_f1": 0.5695238095238095,
+    "medication_recall": 0.6222222222222222,
+    "medication_precision": 0.5911111111111111,
+    "parse_failure_rate": 0.16666666666666666
+  },
+  {
+    "checkpoint": 1000,
+    "diagnosis_f1": 0.46971192195529254,
+    "diagnosis_recall": 0.4699156131392973,
+    "diagnosis_precision": 0.48730690362269313,
+    "medication_f1": 0.5584126984126985,
+    "medication_recall": 0.6055555555555556,
+    "medication_precision": 0.5911111111111111,
+    "parse_failure_rate": 0.16666666666666666
+  }
+]

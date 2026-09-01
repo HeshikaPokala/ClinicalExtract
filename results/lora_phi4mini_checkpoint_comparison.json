@@ -1,0 +1,47 @@
+[
+  {
+    "checkpoint_iter": 100,
+    "n_samples": 30,
+    "diagnosis_f1": 0.3111875874567906,
+    "medication_f1": 0.5325763125763125,
+    "diagnosis_recall": 0.2770489937852638,
+    "medication_recall": 0.6396164021164021,
+    "parse_failure_rate": 0.03333333333333333
+  },
+  {
+    "checkpoint_iter": 200,
+    "n_samples": 30,
+    "diagnosis_f1": 0.2490442901176012,
+    "medication_f1": 0.5231216931216931,
+    "diagnosis_recall": 0.19537198213685628,
+    "medication_recall": 0.6229497354497354,
+    "parse_failure_rate": 0.03333333333333333
+  },
+  {
+    "checkpoint_iter": 300,
+    "n_samples": 30,
+    "diagnosis_f1": 0.28512048193695744,
+    "medication_f1": 0.5392429792429793,
+    "diagnosis_recall": 0.24063616240103652,
+    "medication_recall": 0.6687830687830688,
+    "parse_failure_rate": 0.0
+  },
+  {
+    "checkpoint_iter": 400,
+    "n_samples": 30,
+    "diagnosis_f1": 0.2870974141415937,
+    "medication_f1": 0.5578815628815629,
+    "diagnosis_recall": 0.23721985648473062,
+    "medication_recall": 0.6743386243386243,
+    "parse_failure_rate": 0.0
+  },
+  {
+    "checkpoint_iter": 500,
+    "n_samples": 30,
+    "diagnosis_f1": 0.2756495975499206,
+    "medication_f1": 0.546029711029711,
+    "diagnosis_recall": 0.21682019575898295,
+    "medication_recall": 0.6658730158730158,
+    "parse_failure_rate": 0.0
+  }
+]

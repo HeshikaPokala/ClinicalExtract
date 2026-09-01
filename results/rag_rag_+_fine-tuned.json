@@ -1,0 +1,15 @@
+{
+  "label": "RAG + fine-tuned",
+  "model_tag": "phi4mini-lora-ckpt500",
+  "k": 3,
+  "n_samples": 60,
+  "diagnosis_f1": 0.5239286672436706,
+  "diagnosis_recall": 0.5693646671681675,
+  "diagnosis_precision": 0.5269282147120885,
+  "medication_f1": 0.48289704645636844,
+  "medication_recall": 0.524287059456551,
+  "medication_precision": 0.49265536723163844,
+  "parse_failure_rate": 0.016666666666666666,
+  "latency_p50_ms": 11887.027042,
+  "latency_p95_ms": 23856.77562529999
+}

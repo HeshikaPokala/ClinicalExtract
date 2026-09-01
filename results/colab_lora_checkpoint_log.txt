@@ -1,0 +1,189 @@
+[transformers] This model config has set a `rope_parameters['original_max_position_embeddings']` field, to be used together with `max_position_embeddings` to determine a scaling factor. Please set the `factor` field of `rope_parameters`with this ratio instead -- we recommend the use of this field over `original_max_position_embeddings`, as it is compatible with most model architectures.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Using device: mps
+Loaded 30 eval samples
+
+Loading base model microsoft/Phi-4-mini-instruct...
+Loading weights:   0%|          | 0/194 [00:00<?, ?it/s]Loading weights:   1%|          | 1/194 [00:03<11:55,  3.71s/it]Loading weights:  55%|█████▍    | 106/194 [00:03<00:02, 38.74it/s]Loading weights:  79%|███████▉  | 153/194 [00:05<00:01, 31.73it/s]Loading weights:  93%|█████████▎| 180/194 [00:06<00:00, 32.92it/s]Loading weights: 100%|██████████| 194/194 [00:06<00:00, 28.61it/s]
+
+=== Evaluating checkpoint 100 ===
+    example 1/30 took 40.8s
+    example 2/30 took 33.4s
+    example 3/30 took 44.3s
+    example 4/30 took 10.8s
+    example 5/30 took 57.5s
+    example 6/30 took 79.5s
+    example 7/30 took 51.0s
+    example 8/30 took 23.9s
+    example 9/30 took 2.7s
+    example 10/30 took 70.8s
+  [10/30]
+    example 11/30 took 10.4s
+    example 12/30 took 39.2s
+    example 13/30 took 6.0s
+    example 14/30 took 2.6s
+    example 15/30 took 5.7s
+    example 16/30 took 77.7s
+    example 17/30 took 4.7s
+    example 18/30 took 31.1s
+    example 19/30 took 46.9s
+    example 20/30 took 5.9s
+  [20/30]
+    example 21/30 took 33.9s
+    example 22/30 took 12.5s
+    example 23/30 took 49.2s
+    example 24/30 took 47.2s
+    example 25/30 took 105.0s
+    example 26/30 took 9.3s
+    example 27/30 took 2.4s
+    example 28/30 took 91.4s
+    example 29/30 took 43.2s
+    example 30/30 took 13.5s
+  [30/30]
+
+=== Evaluating checkpoint 300 ===
+    example 1/30 took 85.7s
+    example 2/30 took 23.5s
+    example 3/30 took 80.8s
+    example 4/30 took 28.4s
+    example 5/30 took 74.4s
+    example 6/30 took 108.4s
+    example 7/30 took 56.8s
+    example 8/30 took 31.1s
+    example 9/30 took 5.2s
+    example 10/30 took 82.9s
+  [10/30]
+    example 11/30 took 10.6s
+    example 12/30 took 85.1s
+    example 13/30 took 12.8s
+    example 14/30 took 2.6s
+    example 15/30 took 8.1s
+    example 16/30 took 57.6s
+    example 17/30 took 4.9s
+    example 18/30 took 31.3s
+    example 19/30 took 56.3s
+    example 20/30 took 8.3s
+  [20/30]
+    example 21/30 took 36.7s
+    example 22/30 took 17.3s
+    example 23/30 took 43.1s
+    example 24/30 took 52.6s
+    example 25/30 took 111.7s
+    example 26/30 took 5.8s
+    example 27/30 took 3.9s
+    example 28/30 took 98.3s
+    example 29/30 took 46.3s
+    example 30/30 took 37.5s
+  [30/30]
+
+=== Evaluating checkpoint 500 ===
+    example 1/30 took 24.8s
+    example 2/30 took 15.5s
+    example 3/30 took 23.9s
+    example 4/30 took 15.6s
+    example 5/30 took 13.3s
+    example 6/30 took 91.1s
+    example 7/30 took 40.0s
+    example 8/30 took 14.1s
+    example 9/30 took 4.9s
+    example 10/30 took 71.3s
+  [10/30]
+    example 11/30 took 7.4s
+    example 12/30 took 36.0s
+    example 13/30 took 2.7s
+    example 14/30 took 2.6s
+    example 15/30 took 7.9s
+    example 16/30 took 12.5s
+    example 17/30 took 7.2s
+    example 18/30 took 32.7s
+    example 19/30 took 13.6s
+    example 20/30 took 6.4s
+  [20/30]
+    example 21/30 took 31.1s
+    example 22/30 took 12.0s
+    example 23/30 took 11.2s
+    example 24/30 took 34.1s
+    example 25/30 took 67.8s
+    example 26/30 took 6.6s
+    example 27/30 took 3.6s
+    example 28/30 took 80.9s
+    example 29/30 took 37.2s
+    example 30/30 took 15.8s
+  [30/30]
+
+=== Evaluating checkpoint 700 ===
+    example 1/30 took 69.4s
+    example 2/30 took 28.1s
+    example 3/30 took 69.7s
+    example 4/30 took 9.8s
+    example 5/30 took 36.1s
+    example 6/30 took 96.5s
+    example 7/30 took 53.3s
+    example 8/30 took 31.9s
+    example 9/30 took 5.1s
+    example 10/30 took 68.0s
+  [10/30]
+    example 11/30 took 11.5s
+    example 12/30 took 27.6s
+    example 13/30 took 2.7s
+    example 14/30 took 2.6s
+    example 15/30 took 9.7s
+    example 16/30 took 13.1s
+    example 17/30 took 5.3s
+    example 18/30 took 31.9s
+    example 19/30 took 19.3s
+    example 20/30 took 7.2s
+  [20/30]
+    example 21/30 took 29.5s
+    example 22/30 took 17.8s
+    example 23/30 took 25.9s
+    example 24/30 took 24.1s
+    example 25/30 took 70.2s
+    example 26/30 took 8.8s
+    example 27/30 took 3.6s
+    example 28/30 took 91.7s
+    example 29/30 took 48.2s
+    example 30/30 took 26.3s
+  [30/30]
+
+=== Evaluating checkpoint 900 ===
+    example 1/30 took 62.6s
+    example 2/30 took 25.7s
+    example 3/30 took 68.3s
+    example 4/30 took 9.8s
+    example 5/30 took 52.2s
+    example 6/30 took 81.5s
+    example 7/30 took 47.8s
+    example 8/30 took 13.6s
+    example 9/30 took 4.9s
+    example 10/30 took 41.4s
+  [10/30]
+    example 11/30 took 8.0s
+    example 12/30 took 26.5s
+    example 13/30 took 2.7s
+    example 14/30 took 2.6s
+    example 15/30 took 6.7s
+    example 16/30 took 12.5s
+    example 17/30 took 5.2s
+    example 18/30 took 30.5s
+    example 19/30 took 11.2s
+    example 20/30 took 6.4s
+  [20/30]
+    example 21/30 took 28.8s
+    example 22/30 took 17.9s
+    example 23/30 took 11.3s
+    example 24/30 took 28.4s
+    example 25/30 took 75.5s
+    example 26/30 took 9.0s
+    example 27/30 took 3.7s
+    example 28/30 took 73.7s
+    example 29/30 took 72.1s
+    example 30/30 took 39.9s
+  [30/30]
+
+=== Evaluating checkpoint 1000 ===
+    example 1/30 took 66.3s
+    example 2/30 took 23.7s
+/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/multiprocessing/resource_tracker.py:475: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/mp-8zqjwqki'}
+  warnings.warn(

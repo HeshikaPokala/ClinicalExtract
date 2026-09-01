@@ -1,0 +1,29 @@
+Loading retrieval index...
+Index loaded: 29029 notes
+Loaded 60 eval samples
+Warming up model...
+  [10/60]
+  [16/60] request failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=180)
+  [20/60]
+  [30/60]
+  [40/60]
+  [50/60]
+  [54/60] request failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=180)
+  [60/60]
+
+=== Results ===
+  label: RAG (zero-shot base)
+  model_tag: phi4-mini
+  k: 3
+  n_samples: 60
+  diagnosis_f1: 0.35643441708644413
+  diagnosis_recall: 0.39056764809053135
+  diagnosis_precision: 0.4149932059787426
+  medication_f1: 0.46494336461375
+  medication_recall: 0.5844280240831965
+  medication_precision: 0.46350761307657856
+  parse_failure_rate: 0.1
+  latency_p50_ms: 13780.1203335
+  latency_p95_ms: 34475.584381199995
+
+Written to /Users/heshikapokala/Documents/Projects/Resume Projects/Actual Project/ClinicalExtract/results/rag_rag_zero-shot_base.json

@@ -1,0 +1,10 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] This model config has set a `rope_parameters['original_max_position_embeddings']` field, to be used together with `max_position_embeddings` to determine a scaling factor. Please set the `factor` field of `rope_parameters`with this ratio instead -- we recommend the use of this field over `original_max_position_embeddings`, as it is compatible with most model architectures.
+Loading base model microsoft/Phi-4-mini-instruct (fp16)...
+Loading weights:   0%|          | 0/194 [00:00<?, ?it/s]Loading weights:   1%|          | 1/194 [00:05<16:25,  5.11s/it]Loading weights:  55%|█████▍    | 106/194 [00:05<00:03, 28.61it/s]Loading weights:  81%|████████▏ | 158/194 [00:07<00:01, 27.18it/s]Loading weights:  97%|█████████▋| 188/194 [00:08<00:00, 23.85it/s]Loading weights: 100%|██████████| 194/194 [00:09<00:00, 21.25it/s]
+Base model loaded in dtype: torch.float16
+Loading adapter from /Users/heshikapokala/Documents/Projects/Resume Projects/Actual Project/ClinicalExtract/adapters/colab_lora/checkpoint-500...
+Merging adapter into base model...
+Saving merged model to /Users/heshikapokala/Documents/Projects/Resume Projects/Actual Project/ClinicalExtract/merged_models/phi4mini_lora_ckpt500...
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:05<00:00,  5.12s/it]Writing model shards: 100%|██████████| 1/1 [00:05<00:00,  5.12s/it]
+Done.

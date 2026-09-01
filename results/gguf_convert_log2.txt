@@ -1,0 +1,217 @@
+INFO:hf-to-gguf:Loading model: phi4mini_lora_ckpt500
+INFO:hf-to-gguf:Model architecture: Phi3ForCausalLM
+INFO:hf-to-gguf:gguf: indexing model part 'model.safetensors'
+INFO:gguf.gguf_writer:gguf: This GGUF file is for Little Endian only
+INFO:hf-to-gguf:Exporting model...
+INFO:hf-to-gguf:rope_factors_long.weight,  torch.float32 --> F32, shape = {48}
+INFO:hf-to-gguf:rope_factors_short.weight, torch.float32 --> F32, shape = {48}
+INFO:hf-to-gguf:token_embd.weight,         torch.float16 --> F16, shape = {3072, 200064}
+INFO:hf-to-gguf:blk.0.attn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.0.ffn_down.weight,     torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.0.ffn_up.weight,       torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.0.ffn_norm.weight,     torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.0.attn_output.weight,  torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.0.attn_qkv.weight,     torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.1.attn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.1.ffn_down.weight,     torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.1.ffn_up.weight,       torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.1.ffn_norm.weight,     torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.1.attn_output.weight,  torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.1.attn_qkv.weight,     torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.10.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.10.ffn_down.weight,    torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.10.ffn_up.weight,      torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.10.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.10.attn_output.weight, torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.10.attn_qkv.weight,    torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.11.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.11.ffn_down.weight,    torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.11.ffn_up.weight,      torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.11.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.11.attn_output.weight, torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.11.attn_qkv.weight,    torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.12.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.12.ffn_down.weight,    torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.12.ffn_up.weight,      torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.12.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.12.attn_output.weight, torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.12.attn_qkv.weight,    torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.13.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.13.ffn_down.weight,    torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.13.ffn_up.weight,      torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.13.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.13.attn_output.weight, torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.13.attn_qkv.weight,    torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.14.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.14.ffn_down.weight,    torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.14.ffn_up.weight,      torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.14.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.14.attn_output.weight, torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.14.attn_qkv.weight,    torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.15.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.15.ffn_down.weight,    torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.15.ffn_up.weight,      torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.15.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.15.attn_output.weight, torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.15.attn_qkv.weight,    torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.16.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.16.ffn_down.weight,    torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.16.ffn_up.weight,      torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.16.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.16.attn_output.weight, torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.16.attn_qkv.weight,    torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.17.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.17.ffn_down.weight,    torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.17.ffn_up.weight,      torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.17.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.17.attn_output.weight, torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.17.attn_qkv.weight,    torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.18.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.18.ffn_down.weight,    torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.18.ffn_up.weight,      torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.18.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.18.attn_output.weight, torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.18.attn_qkv.weight,    torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.19.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.19.ffn_down.weight,    torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.19.ffn_up.weight,      torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.19.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.19.attn_output.weight, torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.19.attn_qkv.weight,    torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.2.attn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.2.ffn_down.weight,     torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.2.ffn_up.weight,       torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.2.ffn_norm.weight,     torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.2.attn_output.weight,  torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.2.attn_qkv.weight,     torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.20.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.20.ffn_down.weight,    torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.20.ffn_up.weight,      torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.20.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.20.attn_output.weight, torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.20.attn_qkv.weight,    torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.21.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.21.ffn_down.weight,    torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.21.ffn_up.weight,      torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.21.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.21.attn_output.weight, torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.21.attn_qkv.weight,    torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.22.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.22.ffn_down.weight,    torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.22.ffn_up.weight,      torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.22.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.22.attn_output.weight, torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.22.attn_qkv.weight,    torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.23.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.23.ffn_down.weight,    torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.23.ffn_up.weight,      torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.23.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.23.attn_output.weight, torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.23.attn_qkv.weight,    torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.24.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.24.ffn_down.weight,    torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.24.ffn_up.weight,      torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.24.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.24.attn_output.weight, torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.24.attn_qkv.weight,    torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.25.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.25.ffn_down.weight,    torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.25.ffn_up.weight,      torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.25.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.25.attn_output.weight, torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.25.attn_qkv.weight,    torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.26.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.26.ffn_down.weight,    torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.26.ffn_up.weight,      torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.26.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.26.attn_output.weight, torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.26.attn_qkv.weight,    torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.27.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.27.ffn_down.weight,    torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.27.ffn_up.weight,      torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.27.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.27.attn_output.weight, torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.27.attn_qkv.weight,    torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.28.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.28.ffn_down.weight,    torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.28.ffn_up.weight,      torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.28.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.28.attn_output.weight, torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.28.attn_qkv.weight,    torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.29.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.29.ffn_down.weight,    torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.29.ffn_up.weight,      torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.29.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.29.attn_output.weight, torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.29.attn_qkv.weight,    torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.3.attn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.3.ffn_down.weight,     torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.3.ffn_up.weight,       torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.3.ffn_norm.weight,     torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.3.attn_output.weight,  torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.3.attn_qkv.weight,     torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.30.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.30.ffn_down.weight,    torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.30.ffn_up.weight,      torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.30.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.30.attn_output.weight, torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.30.attn_qkv.weight,    torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.31.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.31.ffn_down.weight,    torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.31.ffn_up.weight,      torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.31.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.31.attn_output.weight, torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.31.attn_qkv.weight,    torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.4.attn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.4.ffn_down.weight,     torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.4.ffn_up.weight,       torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.4.ffn_norm.weight,     torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.4.attn_output.weight,  torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.4.attn_qkv.weight,     torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.5.attn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.5.ffn_down.weight,     torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.5.ffn_up.weight,       torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.5.ffn_norm.weight,     torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.5.attn_output.weight,  torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.5.attn_qkv.weight,     torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.6.attn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.6.ffn_down.weight,     torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.6.ffn_up.weight,       torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.6.ffn_norm.weight,     torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.6.attn_output.weight,  torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.6.attn_qkv.weight,     torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.7.attn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.7.ffn_down.weight,     torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.7.ffn_up.weight,       torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.7.ffn_norm.weight,     torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.7.attn_output.weight,  torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.7.attn_qkv.weight,     torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.8.attn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.8.ffn_down.weight,     torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.8.ffn_up.weight,       torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.8.ffn_norm.weight,     torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.8.attn_output.weight,  torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.8.attn_qkv.weight,     torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:blk.9.attn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.9.ffn_down.weight,     torch.float16 --> F16, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.9.ffn_up.weight,       torch.float16 --> F16, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.9.ffn_norm.weight,     torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.9.attn_output.weight,  torch.float16 --> F16, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.9.attn_qkv.weight,     torch.float16 --> F16, shape = {3072, 5120}
+INFO:hf-to-gguf:output_norm.weight,        torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:Set meta model
+INFO:hf-to-gguf:Set model parameters
+INFO:hf-to-gguf:Set model quantization version
+INFO:hf-to-gguf:Set model tokenizer
+INFO:gguf.vocab:Adding 199742 merge(s).
+INFO:gguf.vocab:Setting special token type bos to 199999
+INFO:gguf.vocab:Setting special token type eos to 199999
+INFO:gguf.vocab:Setting special token type unk to 199999
+INFO:gguf.vocab:Setting special token type pad to 199999
+INFO:gguf.vocab:Setting add_bos_token to False
+INFO:gguf.vocab:Setting add_eos_token to False
+INFO:gguf.vocab:Setting chat_template to {% for message in messages %}{% if message['role'] == 'system' and 'tools' in message and message['tools'] is not none %}{{ '<|' + message['role'] + '|>' + message['content'] + '<|tool|>' + message['tools'] + '<|/tool|>' + '<|end|>' }}{% else %}{{ '<|' + message['role'] + '|>' + message['content'] + '<|end|>' }}{% endif %}{% endfor %}{% if add_generation_prompt %}{{ '<|assistant|>' }}{% else %}{{ eos_token }}{% endif %}
+INFO:gguf.gguf_writer:Writing the following files:
+INFO:gguf.gguf_writer:gguf_models/phi4mini_lora_ckpt500_fp16.gguf: n_tensors = 196, total_size = 7.7G
+Writing:   0%|          | 0.00/7.67G [00:00<?, ?byte/s]Writing:  16%|█▌        | 1.23G/7.67G [00:03<00:16, 400Mbyte/s]Writing:  17%|█▋        | 1.28G/7.67G [00:03<00:17, 373Mbyte/s]Writing:  18%|█▊        | 1.38G/7.67G [00:04<00:20, 307Mbyte/s]Writing:  19%|█▊        | 1.43G/7.67G [00:04<00:20, 301Mbyte/s]Writing:  19%|█▉        | 1.48G/7.67G [00:04<00:20, 306Mbyte/s]Writing:  21%|██        | 1.58G/7.67G [00:04<00:18, 323Mbyte/s]Writing:  21%|██▏       | 1.63G/7.67G [00:04<00:19, 308Mbyte/s]Writing:  22%|██▏       | 1.68G/7.67G [00:05<00:19, 304Mbyte/s]Writing:  23%|██▎       | 1.78G/7.67G [00:05<00:18, 316Mbyte/s]Writing:  24%|██▍       | 1.83G/7.67G [00:05<00:18, 314Mbyte/s]Writing:  25%|██▍       | 1.88G/7.67G [00:05<00:17, 322Mbyte/s]Writing:  26%|██▌       | 1.98G/7.67G [00:05<00:16, 350Mbyte/s]Writing:  27%|██▋       | 2.03G/7.67G [00:06<00:16, 344Mbyte/s]Writing:  27%|██▋       | 2.08G/7.67G [00:06<00:16, 346Mbyte/s]Writing:  28%|██▊       | 2.19G/7.67G [00:06<00:15, 365Mbyte/s]Writing:  29%|██▉       | 2.24G/7.67G [00:06<00:15, 350Mbyte/s]Writing:  30%|██▉       | 2.29G/7.67G [00:06<00:15, 351Mbyte/s]Writing:  31%|███       | 2.39G/7.67G [00:07<00:14, 369Mbyte/s]Writing:  32%|███▏      | 2.44G/7.67G [00:07<00:14, 354Mbyte/s]Writing:  32%|███▏      | 2.49G/7.67G [00:07<00:14, 352Mbyte/s]Writing:  34%|███▎      | 2.59G/7.67G [00:07<00:13, 364Mbyte/s]Writing:  34%|███▍      | 2.64G/7.67G [00:07<00:14, 342Mbyte/s]Writing:  35%|███▌      | 2.69G/7.67G [00:07<00:14, 340Mbyte/s]Writing:  36%|███▋      | 2.79G/7.67G [00:08<00:14, 331Mbyte/s]Writing:  37%|███▋      | 2.84G/7.67G [00:08<00:17, 283Mbyte/s]Writing:  38%|███▊      | 2.89G/7.67G [00:08<00:18, 258Mbyte/s]Writing:  39%|███▉      | 2.99G/7.67G [00:09<00:19, 243Mbyte/s]Writing:  40%|███▉      | 3.04G/7.67G [00:09<00:20, 224Mbyte/s]Writing:  40%|████      | 3.09G/7.67G [00:09<00:20, 219Mbyte/s]Writing:  42%|████▏     | 3.19G/7.67G [00:10<00:21, 211Mbyte/s]Writing:  42%|████▏     | 3.24G/7.67G [00:10<00:22, 198Mbyte/s]Writing:  43%|████▎     | 3.29G/7.67G [00:10<00:22, 198Mbyte/s]Writing:  44%|████▍     | 3.39G/7.67G [00:11<00:20, 206Mbyte/s]Writing:  45%|████▍     | 3.44G/7.67G [00:11<00:21, 201Mbyte/s]Writing:  46%|████▌     | 3.49G/7.67G [00:11<00:20, 200Mbyte/s]Writing:  47%|████▋     | 3.60G/7.67G [00:12<00:19, 207Mbyte/s]Writing:  48%|████▊     | 3.65G/7.67G [00:12<00:19, 203Mbyte/s]Writing:  48%|████▊     | 3.70G/7.67G [00:12<00:19, 201Mbyte/s]Writing:  49%|████▉     | 3.80G/7.67G [00:13<00:18, 207Mbyte/s]Writing:  50%|█████     | 3.85G/7.67G [00:13<00:19, 199Mbyte/s]Writing:  51%|█████     | 3.90G/7.67G [00:13<00:20, 186Mbyte/s]Writing:  52%|█████▏    | 4.00G/7.67G [00:14<00:19, 188Mbyte/s]Writing:  52%|█████▏    | 4.02G/7.67G [00:14<00:19, 183Mbyte/s]Writing:  53%|█████▎    | 4.05G/7.67G [00:14<00:19, 185Mbyte/s]Writing:  53%|█████▎    | 4.10G/7.67G [00:14<00:19, 185Mbyte/s]Writing:  55%|█████▍    | 4.20G/7.67G [00:15<00:17, 198Mbyte/s]Writing:  55%|█████▌    | 4.25G/7.67G [00:15<00:17, 191Mbyte/s]Writing:  56%|█████▌    | 4.30G/7.67G [00:15<00:17, 191Mbyte/s]Writing:  57%|█████▋    | 4.40G/7.67G [00:16<00:16, 200Mbyte/s]Writing:  58%|█████▊    | 4.45G/7.67G [00:16<00:16, 196Mbyte/s]Writing:  59%|█████▊    | 4.50G/7.67G [00:16<00:16, 194Mbyte/s]Writing:  60%|█████▉    | 4.60G/7.67G [00:17<00:15, 194Mbyte/s]Writing:  61%|██████    | 4.65G/7.67G [00:17<00:16, 184Mbyte/s]Writing:  61%|██████▏   | 4.70G/7.67G [00:18<00:16, 184Mbyte/s]Writing:  63%|██████▎   | 4.80G/7.67G [00:18<00:14, 196Mbyte/s]Writing:  63%|██████▎   | 4.85G/7.67G [00:18<00:14, 190Mbyte/s]Writing:  64%|██████▍   | 4.90G/7.67G [00:19<00:14, 190Mbyte/s]Writing:  65%|██████▌   | 5.00G/7.67G [00:19<00:13, 200Mbyte/s]Writing:  66%|██████▌   | 5.05G/7.67G [00:19<00:13, 194Mbyte/s]Writing:  67%|██████▋   | 5.11G/7.67G [00:20<00:13, 191Mbyte/s]Writing:  68%|██████▊   | 5.21G/7.67G [00:20<00:12, 200Mbyte/s]Writing:  69%|██████▊   | 5.26G/7.67G [00:20<00:12, 189Mbyte/s]Writing:  69%|██████▉   | 5.31G/7.67G [00:21<00:12, 184Mbyte/s]Writing:  70%|███████   | 5.41G/7.67G [00:21<00:11, 191Mbyte/s]Writing:  71%|███████   | 5.43G/7.67G [00:21<00:12, 185Mbyte/s]Writing:  71%|███████   | 5.46G/7.67G [00:21<00:11, 188Mbyte/s]Writing:  72%|███████▏  | 5.51G/7.67G [00:22<00:11, 187Mbyte/s]Writing:  73%|███████▎  | 5.61G/7.67G [00:22<00:10, 198Mbyte/s]Writing:  74%|███████▍  | 5.66G/7.67G [00:23<00:10, 189Mbyte/s]Writing:  74%|███████▍  | 5.71G/7.67G [00:23<00:10, 188Mbyte/s]Writing:  76%|███████▌  | 5.81G/7.67G [00:23<00:09, 198Mbyte/s]Writing:  76%|███████▋  | 5.86G/7.67G [00:24<00:09, 190Mbyte/s]Writing:  77%|███████▋  | 5.91G/7.67G [00:24<00:09, 185Mbyte/s]Writing:  78%|███████▊  | 6.01G/7.67G [00:24<00:08, 187Mbyte/s]Writing:  79%|███████▊  | 6.03G/7.67G [00:25<00:09, 175Mbyte/s]Writing:  79%|███████▉  | 6.06G/7.67G [00:25<00:09, 178Mbyte/s]Writing:  80%|███████▉  | 6.11G/7.67G [00:25<00:08, 179Mbyte/s]Writing:  81%|████████  | 6.21G/7.67G [00:25<00:07, 192Mbyte/s]Writing:  81%|████████  | 6.23G/7.67G [00:26<00:07, 181Mbyte/s]Writing:  82%|████████▏ | 6.26G/7.67G [00:26<00:07, 186Mbyte/s]Writing:  82%|████████▏ | 6.31G/7.67G [00:26<00:07, 186Mbyte/s]Writing:  84%|████████▎ | 6.41G/7.67G [00:27<00:06, 197Mbyte/s]Writing:  84%|████████▍ | 6.46G/7.67G [00:27<00:06, 188Mbyte/s]Writing:  85%|████████▍ | 6.51G/7.67G [00:27<00:06, 187Mbyte/s]Writing:  86%|████████▌ | 6.62G/7.67G [00:28<00:05, 195Mbyte/s]Writing:  87%|████████▋ | 6.67G/7.67G [00:28<00:05, 183Mbyte/s]Writing:  88%|████████▊ | 6.72G/7.67G [00:28<00:05, 177Mbyte/s]Writing:  89%|████████▉ | 6.82G/7.67G [00:29<00:04, 187Mbyte/s]Writing:  89%|████████▉ | 6.84G/7.67G [00:29<00:04, 179Mbyte/s]Writing:  90%|████████▉ | 6.87G/7.67G [00:29<00:04, 181Mbyte/s]Writing:  90%|█████████ | 6.92G/7.67G [00:29<00:04, 178Mbyte/s]Writing:  91%|█████████▏| 7.02G/7.67G [00:30<00:03, 191Mbyte/s]Writing:  92%|█████████▏| 7.04G/7.67G [00:30<00:03, 178Mbyte/s]Writing:  92%|█████████▏| 7.07G/7.67G [00:30<00:03, 180Mbyte/s]Writing:  93%|█████████▎| 7.12G/7.67G [00:30<00:03, 179Mbyte/s]Writing:  94%|█████████▍| 7.22G/7.67G [00:31<00:02, 191Mbyte/s]Writing:  94%|█████████▍| 7.24G/7.67G [00:31<00:02, 180Mbyte/s]Writing:  95%|█████████▍| 7.27G/7.67G [00:31<00:02, 182Mbyte/s]Writing:  95%|█████████▌| 7.32G/7.67G [00:32<00:01, 176Mbyte/s]Writing:  97%|█████████▋| 7.42G/7.67G [00:32<00:01, 183Mbyte/s]Writing:  97%|█████████▋| 7.44G/7.67G [00:32<00:01, 172Mbyte/s]Writing:  97%|█████████▋| 7.47G/7.67G [00:32<00:01, 177Mbyte/s]Writing:  98%|█████████▊| 7.52G/7.67G [00:33<00:00, 177Mbyte/s]Writing:  99%|█████████▉| 7.62G/7.67G [00:33<00:00, 190Mbyte/s]Writing: 100%|█████████▉| 7.64G/7.67G [00:33<00:00, 177Mbyte/s]Writing: 100%|█████████▉| 7.67G/7.67G [00:33<00:00, 181Mbyte/s]Writing: 100%|██████████| 7.67G/7.67G [00:34<00:00, 225Mbyte/s]
+INFO:hf-to-gguf:Model successfully exported to gguf_models/phi4mini_lora_ckpt500_fp16.gguf

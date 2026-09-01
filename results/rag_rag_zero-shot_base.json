@@ -1,0 +1,15 @@
+{
+  "label": "RAG (zero-shot base)",
+  "model_tag": "phi4-mini",
+  "k": 3,
+  "n_samples": 60,
+  "diagnosis_f1": 0.35643441708644413,
+  "diagnosis_recall": 0.39056764809053135,
+  "diagnosis_precision": 0.4149932059787426,
+  "medication_f1": 0.46494336461375,
+  "medication_recall": 0.5844280240831965,
+  "medication_precision": 0.46350761307657856,
+  "parse_failure_rate": 0.1,
+  "latency_p50_ms": 13780.1203335,
+  "latency_p95_ms": 34475.584381199995
+}
