@@ -8,7 +8,7 @@ Clinical text carries privacy and regulatory constraints that make routing patie
 
 ## Task
 
-Given a clinical note (synthetic, Synthea-generated), extract every **diagnosis** and **medication** mentioned as structured JSON:
+Given a clinical note (synthetic, [Synthea](https://github.com/synthetichealth/synthea)-generated), extract every **diagnosis** and **medication** mentioned as structured JSON:
 
 ```json
 {"diagnoses": ["Essential hypertension (disorder)", "..."], "medications": ["lisinopril 10 MG Oral Tablet", "..."]}

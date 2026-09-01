@@ -1,6 +1,8 @@
 # Dataset: Synthea Synthetic Patient Data
 
-Generated locally with [Synthea](https://synthetichealth.github.io/synthea/) — 674 synthetic patients (600 alive, 74 deceased), Massachusetts population, default modules.
+> 📦 Full dataset hosted on Hugging Face: [HeshikaPokala/ClinicalExtract-Dataset](https://huggingface.co/datasets/HeshikaPokala/ClinicalExtract-Dataset)
+
+Generated locally with [Synthea](https://github.com/synthetichealth/synthea) — 674 synthetic patients (600 alive, 74 deceased), Massachusetts population, default modules.
 
 Command used:
 ```bash
