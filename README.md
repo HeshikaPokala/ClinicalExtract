@@ -78,14 +78,15 @@ Full methodology, debugging log, and interview-ready technical talking points: [
 src/                    Core scripts: baseline benchmarking, fine-tune data prep,
                          checkpoint evaluation, RAG retrieval + prompting, model merging
 colab/                   Fine-tuning training scripts (Colab GPU)
-dataset/processed/       train.jsonl (29,029) / eval.jsonl (7,404, held out)
-adapters/                LoRA checkpoints
-retrieval_index/         Precomputed note embeddings (source data)
-chroma_db/               ChromaDB persistent vector store (RAG retrieval index)
-merged_models/           LoRA merged into the base model
-gguf_models/              Quantized model + Ollama Modelfile
 results/                 All evaluation outputs (JSON + logs)
 ```
+
+Large files are hosted on Hugging Face (not in this repo):
+
+| Directory | Contents | Hosted at |
+|---|---|---|
+| `dataset/notes/` · `dataset/processed/` | 674 patient notes · train/eval JSONL | [🤗 ClinicalExtract-Dataset](https://huggingface.co/datasets/HeshikaPokala/ClinicalExtract-Dataset) |
+| `adapters/` · `merged_models/` · `gguf_models/` | LoRA checkpoints · merged safetensors · GGUF + Modelfile | [🤗 ClinicalExtract-Models](https://huggingface.co/HeshikaPokala/ClinicalExtract-Models) |
 
 ## Limitations
 
